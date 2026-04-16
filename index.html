@@ -5,30 +5,73 @@
     <title>EcoService Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>EcoService Online</h1>
-        <p>Serviços digitais rápidos e acessíveis</p>
-    </header>
+<header>
+    <div class="logo">EcoService</div>
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#precos">Preços</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
 
-    <section>
-        <h2>Sobre o negócio</h2>
-        <p>Oferecemos ajuda com documentos, CVs, trabalhos escolares e design simples.</p>
-    </section>
+<section class="hero">
+    <h1>Serviços Digitais Rápidos e Profissionais</h1>
+    <p>CVs, documentos e ajuda digital com qualidade e rapidez.</p>
+    <a class="btn" href="#contacto">Pedir Serviço</a>
+</section>
 
-    <section>
-        <h2>Preços</h2>
-        <ul>
-            <li>CV simples - 5€</li>
-            <li>Documentos - 10€</li>
-            <li>Pacote completo - 20€</li>
-        </ul>
-    </section>
+<section id="servicos">
+    <h2>Serviços</h2>
 
-    <footer>
-        <p>Contacto: ecosevice@email.com</p>
-    </footer>
+    <div class="cards">
+        <div class="card">
+            <h3>CV Profissional</h3>
+            <p>Criação de CV moderno e atrativo.</p>
+        </div>
+
+        <div class="card">
+            <h3>Documentos</h3>
+            <p>Formatação e revisão de textos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Trabalhos Escolares</h3>
+            <p>Apoio e organização de trabalhos.</p>
+        </div>
+    </div>
+</section>
+
+<section id="precos">
+    <h2>Preços</h2>
+    <ul>
+        <li>CV simples — 5€</li>
+        <li>Documento — 10€</li>
+        <li>Pacote completo — 20€</li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+
+    <form>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p>Ou fala direto no WhatsApp:</p>
+    <a class="btn-whatsapp" href="https://wa.me/351000000000" target="_blank">
+        Abrir WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 EcoService Online - Todos os direitos reservados</p>
+</footer>
 
 </body>
 </html>
